@@ -32,7 +32,7 @@ def load_lottieurl(url: str):
     return None
   return r.json()
 
-url = "https://assets7.lottiefiles.com/packages/lf20_0nnf0are/data.json"
+url = "https://assets6.lottiefiles.com/private_files/lf30_bb9bkg1h.json"
 res_json = load_lottieurl(url)
 st_lottie(res_json)
 
