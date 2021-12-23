@@ -3,7 +3,9 @@ import streamlit as st
 import requests
 from streamlit_lottie import st_lottie
 
-openai.api_key = "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"
+
+key = pickle.load(open("key.pkl", 'rb'))
+openai.api_key = key
 completion = openai.Completion()
 
 start_chat_log = '''The following is a conversation with an AI assistant. The assistant is helpful, creative, clever, and very friendly.
