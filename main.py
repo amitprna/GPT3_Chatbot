@@ -1,6 +1,7 @@
 import openai
 import streamlit as st
 import requests
+import pickle
 from streamlit_lottie import st_lottie
 
 
