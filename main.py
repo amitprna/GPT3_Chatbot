@@ -39,7 +39,7 @@ st_lottie(res_json)
 
 st.title("""
 GPT3  ChatBot  
-This third-generation language prediction model in the GPT-n series  created by OpenAI 
+This chatbot is based on the third-generation language prediction model in the GPT-n series  created by OpenAI 
 """)
 
 input_text = st.text_input("You: ","who are you")
